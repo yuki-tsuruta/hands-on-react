@@ -1,10 +1,11 @@
 import Title from "./components/Title"
+import Form from "./components/Form"
 
 const App = () => {
   return (
     <div>
       <Title/>
-      <h1>こんにちは</h1>
+      <Form/>
     </div>
   )
 }
