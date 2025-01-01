@@ -1,0 +1,28 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.language-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.language-item {
+  font-size: 18px;
+  color: #555;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.language-item:hover {
+  color: #007acc;
+  cursor: pointer;
+}
