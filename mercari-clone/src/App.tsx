@@ -1,4 +1,4 @@
-import { PageNavigation, PageHeader } from './layouts';
+import { PageNavigation, PageHeader, PageFooter } from './layouts';
 import { Categories } from './components/Categories';
 
 export default function App() {
@@ -9,6 +9,7 @@ export default function App() {
         <Categories />
       </div>
       <div className="min-h-screen"></div>
+      <PageFooter />
       <PageNavigation />
     </div>
   );
