@@ -1,4 +1,4 @@
-import { Bell, Home, Camera, User } from 'lucide-react'
+import { Bell, Home, Camera, User } from 'lucide-react';
 
 export const navigationMenus = [
   {
@@ -21,4 +21,4 @@ export const navigationMenus = [
     label: 'プロフィール',
     icon: User,
   },
-]
+];
